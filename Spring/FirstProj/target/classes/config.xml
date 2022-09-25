@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean class = "com.example.demo.Alien" name = "alien1">
+    <property name = "alienId" value ="15" />
+    
+    <property name = "alienName" value = "Subham"/>
+       
+    <property name = "alienAddress" value = "BIhar"/> 
+
+</bean>
+
+<bean class = "com.example.demo.Alien" name = "alien2">
+    <property name = "alienId" value ="20" />
+    
+    <property name = "alienName" value = "Rahul"/>
+       
+    <property name = "alienAddress" value = "Bengal"/> 
+
+</bean>
+
+</beans>
